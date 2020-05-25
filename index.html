@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="kr">
+<title>고보람 홈페이지</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 1;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 0.7
+    }
+
+    a:link {
+        color: #ADA782;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(224, 218, 183);
+    }
+
+    a:visited {
+        color: #FFFDF2;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .xxxlarge:first-letter {
+        color: rgb(133, 128, 177)
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="#int">interests</a> <br>
+                <a href="#edu">game</a> <br>
+                <a href="#works">drama</a> <br>
+                <a href="#travel">travel</a> <br>
+                <a href="#con">contact</a> <br>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 페이지 상단 -->
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> welcome to my world of work & life </h2>
+
+        <!-- 관심사 -->
+        <div class="bigbox" style="margin-top:0px;">
+            <h1 class="jumbo"><b>고보람 </b></h1>
+            <h1 class="xxxlarge colorname" id="interests"><b>interests</b></h1>
+            <hr style="width:41%; border:5.2px solid black; float: left; clear: both; "> <br>
+        </div>
+
+        <!-- 사진 -->
+        <div class="imgpadding">
+            <div class="half">
+                <img src="피포.jpg" style="width:100%" alt="마카롱">
+                <img src="아미.jpg" style="width:100%" alt="휴식">
+                <img src="일본.jpg" style="width:100%" alt="고양이">
+            </div>
+
+            <div class="half">
+                <img src="킬링이브.jpg" style="width:100%" alt="영화">
+                <img src="메이.jpg" style="width:100%" alt="음악">
+                <img src="sky.jpg" style="width:100%" alt="그림">
+            </div>
+        </div>
+
+        <!-- 공부 -->
+        <div class="bigbox" id="edu" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>game</b></h1>
+            <hr style="width: 41%; border: 5.2px solid black; float: left; clear: both; "> <br>
+            <p>제가 즐겨하는 게임은 SKY 빛의 아이들입니다.</p>
+            <p>많은 호평을 이끌어낸 Journey와 Flower를 개발한 thatgamecompany의 소셜 인디 어드벤처 게임입니다.
+                빛의 아이들 중 한 명이 땅으로 떨어지면서 폐허가 된 왕국에 잃은 날개를 되찾아 희망을 되찾고, 7개로 나눠진 하늘 대륙들을 향해 모험을 떠나는 게임입니다.
+                Sky: 빛의 아이들에서는 날개 조각으로 레벨 업을 하고, 혼자 또는 다른 플레이어와 함께 모험하여 맵 곳곳에 있는 영혼의 기억들을 만납니다. 탐색한 영혼의 기억을 불로 지펴 별자리의 별(영혼)을 찾을 수 있습니다.
+            </p>
+        </div>
+
+        <!-- 포트폴리오 -->
+        <div class="bigbox" id="works" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>DRAMA</b></h1>
+            <hr style="width:41%; border:5.2px solid black; float: left; clear: both; "> <br>
+            <p>제가 제일 좋아하는 드라마는 킬링이브입니다.</p>
+            <p>킬링이브는 BBC 아메리카에서 2018년 4월부터 방영 중인 영국의 텔레비전 드라마입니다. 소설가 루크 젠닝스의 소설 Codename Villanelle 을 원작으로 하며, 피비 월러브리지가 창작했습니다. 여덟 개의 에피소드로 구성된 시즌 1은 2018년 4월 8일에 첫 방영되었습니다.
+ 
+            </p>
+            <p><b>왓챠에서 시청할 수 있습니다.</b></p>
+        </div>
+
+        <div class="bigbox" id="travel" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>travel</b></h1>
+            <hr style="width: 41%; border: 5.2px solid black; float: left; clear: both; "> <br>
+            <p>저는 여행 다니는 것을 좋아합니다.</p>
+            <p>가장 최근에 다녀온 여행지는 일본의 구마모토입니다. 구마모토현은 일본 규슈 중앙부에 있는 현이며 현청 소재지는 구마모토시입니다. 아리아케해, 야쓰시로해, 동중국해에 접하고 있어서 전국 유수의 농업 지역이며 차새우 따위의 양식업이 왕성합니다. 세계 최대 규모의 칼데라를 갖고 있는 아소산이 유명합니다. 
+            </p>
+        </div>
+
+
+
+        <!-- 연락처 -->
+        <div class="bigbox" id="con" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>CONTACT</b></h1>
+            <hr style="width:41%; border:5.2px solid black; float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-4723-9606</li>
+                <li><a href="mailto:kbr9606@naver.com">kbr9606@naver.com</a></li> <br>
+                <a href="https://www.facebook.com/login/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/explore" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                <a href="https://www.instagram.com/?hl=ko" class="fa fa-instagram"></a>
+
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by 고보람 </p>
+
+                </footer>
+
+
+
+
+</body>
+
+</html>
+
